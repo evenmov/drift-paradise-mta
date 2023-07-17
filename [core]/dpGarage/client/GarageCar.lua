@@ -322,7 +322,7 @@ function GarageCar.save()
     vehiclesList[currentVehicle].stickers = toJSON(vehicle:getData("stickers"))
 
     --outputDebugString("SAVE WheelsSize = " .. tostring(tuningTable.WheelsSize))
-    triggerServerEvent("dpGarage.saveCar", resourceRoot,
+    triggerServerEvent("Garage.saveCar", resourceRoot,
         GarageCar.getId(),
         tuningTable,
         vehicle:getData("stickers")

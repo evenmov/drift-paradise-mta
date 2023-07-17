@@ -18,10 +18,7 @@
 	<!-- SERVER -->
 
 	<!-- Модули для работы с базой данных -->
-	<script type="server" src="server/database/DatabaseUtils.lua"/>
-	<script type="server" src="server/database/DatabaseConfig.lua"/>
-	<script type="server" src="server/database/Database.lua"/>
-	<script type="server" src="server/database/DatabaseTable.lua"/>
+
 	<!-- Аккаунты пользователей -->
 	<script type="server" src="server/users/Sessions.lua"/>
 	<script type="server" src="server/users/Bans.lua"/>
@@ -71,10 +68,10 @@
 	<export type="server" function="updateVehicleTuning"/>
 	<export type="server" function="updatePlayerVehiclesCount"/>
 	<export type="server" function="isPlayerOwningVehicle"/>
-	<export type="server" function="returnVehicleToGarage"/>
+
 	<export type="server" function="returnPlayerVehiclesToGarage"/>
 	<export type="server" function="getPlayerVehicles"/>
-	<export type="server" function="getPlayerVehiclesAsync"/>
+
 	<export type="server" function="getVehicleOwnerAsync"/>
 	<export type="server" function="getPlayerSpawnedVehicles"/>
 	<export type="server" function="addPlayerVehicle"/>

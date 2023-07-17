@@ -11,8 +11,8 @@
 
 	<!-- Сервер -->
 	<script type="server" src="server/enter_exit.lua"/>
-	<script type="server" src="server/tuning_server.lua"/>
-	<script type="server" src="server/handling.lua"/>
+
+
 	<script type="server" src="server/sell.lua"/>
 
 	<!-- Клиент -->

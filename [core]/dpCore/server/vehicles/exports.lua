@@ -1,19 +1,3 @@
-function spawnVehicle(...)
-	return VehicleSpawn.spawn(...)
-end
-
-function returnVehicleToGarage(vehicle)
-	return VehicleSpawn.returnToGarage(vehicle)
-end
-
-function returnPlayerVehiclesToGarage(player)
-	if not isElement(player) then
-		return false
-	end
-	local ownerId = player:getData("_id")
-	return VehicleSpawn.returnUserVehiclesToGarage(ownerId)
-end
-
 function isPlayerOwningVehicle(...)
 	return VehicleSpawn.isPlayerOwningVehicle(...)
 end
@@ -34,16 +18,7 @@ function getPlayerVehicles(player)
 	return UserVehicles.getVehicles(ownerId)
 end
 
-function getPlayerVehiclesAsync(player, eventName)
-	if not isElement(player) then
-		return false
-	end
-	local callerRoot = sourceResourceRoot
-	local ownerId = player:getData("_id")
-	return UserVehicles.getVehicles(ownerId, function (result)
-		triggerEvent(eventName, callerRoot, player, result)
-	end)
-end
+
 
 function getPlayerSpawnedVehicles(player)
 	return VehicleSpawn.getPlayerSpawnedVehicles(player)

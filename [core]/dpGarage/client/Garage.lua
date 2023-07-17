@@ -97,11 +97,11 @@ function Garage.buy(price, level, callback)
 		return
 	end
 	pendingBuyCallback = callback
-	triggerServerEvent("dpGarage.buy", resourceRoot, price, level)
+	triggerServerEvent("Garage.buy", resourceRoot, price, level)
 end
 
-addEvent("dpGarage.buy", true)
-addEventHandler("dpGarage.buy", resourceRoot, function (success)
+addEvent("Garage.buy", true)
+addEventHandler("Garage.buy", resourceRoot, function (success)
 	if type(pendingBuyCallback) ~= "function" then
 		exports.dpSounds:playSound("error.wav")
 		return false
