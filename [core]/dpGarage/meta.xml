@@ -70,7 +70,7 @@
     <script type="client" src="client/MusicPlayer.lua"/>
 
 	<!-- Функции -->
-	<export type="client" function="enterGarage"/>
+
 	<export type="client" function="enterGarageAnimated"/>
 
 	<file src="assets/images/circle_button.png"/>

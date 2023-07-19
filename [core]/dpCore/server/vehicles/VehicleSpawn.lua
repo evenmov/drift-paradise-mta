@@ -26,10 +26,7 @@ function VehicleSpawn.getPlayerSpawnedVehicles(player)
 	return VehicleSpawn.getUserSpawnedVehicles(userId)
 end
 
--- Возвращает элемент заспавненного автомобиля по его _id в базе данных
-function VehicleSpawn.getSpawnedVehicle(vehicleId)
-	return getElementByID("vehicle_" .. tostring(vehicleId))
-end
+
 
 -- Возвращает игрока, который является владельцем автомобиля
 function VehicleSpawn.getVehicleOwnerPlayer(vehicle)
