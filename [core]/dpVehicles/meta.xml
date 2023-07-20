@@ -11,7 +11,7 @@
 
 	<script type="client" src="client/configuration.lua"/>
 	<script type="client" src="client/lights_sync.lua"/>
-	<script type="client" src="client/mileage.lua"/>
+
 	<script type="client" src="client/neon.lua"/>
 	<script type="client" src="client/numberplate.lua"/>
 	<script type="client" src="client/spoiler_color.lua"/>

@@ -150,141 +150,7 @@
 	"chat_admin_unmute": "Players %s has been unmuted by %s.",
 	"chat_admin_ban": "Player %s has been banned %s",
 
-	// =====================================
-	// ============= Garage ================
-	// =====================================
-	"garage_no_vehicle_error": "You must be in a car to enter garage",
-	"garage_not_driver": "You must be driving this car to enter garage",
-	"garage_has_occupants": "You must be the only car occupant to enter garage",
-	"garage_not_owner": "You must car owner to enter garage",
-	"garage_not_logged_in": "You must be logged in to enter garage",
-	"garage_enter_failed": "Failed to enter garage",
-	"garage_enter_failed_no_cars": "Failed to enter garage. You have no cars. Get car in /carshop",
 
-	"garage_slot_empty": "Empty slot",
-	"garage_slot_need_level": "Need level",	
-
-	"garage_menu_go_city": "Take car",
-	"garage_menu_customize": "Tuning",
-	"garage_menu_settings": "Settings",
-	"garage_menu_sell": "Sell car",
-	"garage_menu_remove": "Remove car",
-	"garage_menu_exit": "Exit garage",
-
-	"garage_menu_customize_components": "Components",
-	"garage_menu_customize_paint": "Paint",
-	"garage_menu_customize_stickers": "Vinyls",
-	"garage_menu_customize_config": "Configuration",
-
-	"garage_menu_settings_bumper": "Remove rear bumper",
-	"garage_menu_back": "Back",
-
-	"garage_sell_text": "Remove this car?",
-	"garage_sell_confirm": "confirm",
-	"garage_sell_last_car": "You can't remove your last car!",
-	"garage_slot": "Car slot",
-	"garage_slot_of": "of",
-
-	// ========================================
-	// ================ Tuning ================
-	// ========================================
-	"garage_tuning_component_front_bump": "Front bumper",
-	"garage_tuning_component_rear_bump": "Rear bumper",
-	"garage_tuning_component_side_skirts": "Side skirts",
-	"garage_tuning_component_wheels_front": "Front wheels",
-	"garage_tuning_component_wheels_rear": "Rear wheels",
-	"garage_tuning_component_wheels": "Wheels",
-	"garage_tuning_component_spoilers": "Spoiler",
-	"garage_tuning_component_rear_fends": "Rear Fenders",
-	"garage_tuning_component_front_fends": "Front Fenders",
-	"garage_tuning_component_bonnet": "Bonnet",
-	"garage_tuning_component_rear_lights": "Rear lights",
-	"garage_tuning_component_front_lights": "Fronts lights",
-	"garage_tuning_component_exhaust": "Exhaust",
-	"garage_tuning_component_numberplate": "Number plate",
-
-	"garage_tuning_paint_body": "Body color",
-	"garage_tuning_smoke_color": "Smoke color",
-	"garage_tuning_paint_wheels_front": "Front rims color",
-	"garage_tuning_paint_wheels_rear": "Rear rims color",
-	"garage_tuning_paint_wheels": "Rims color",
-	"garage_tuning_paint_spoiler": "Spoiler color",
-
-	"garage_tuning_paint_hue": "Hue",
-	"garage_tuning_paint_saturation": "Saturation",
-	"garage_tuning_paint_brightness": "Brightness",
-
-	"garage_tuning_item_bumper": "Bumper",
-	"garage_tuning_item_spoiler": "Spoiler",
-	"garage_tuning_item_wheel": "Wheels",
-	"garage_tuning_item_skirt": "Skirts",
-	"garage_tuning_item_fender": "Fenders",
-	"garage_tuning_item_bonnet": "Bonnet",
-	"garage_tuning_item_exhaust": "Exhaust",
-	"garage_tuning_item_lights": "Lights",
-
-	"garage_tuning_side_top": "Top side",
-	"garage_tuning_side_right": "Right side",
-	"garage_tuning_side_left": "Left side",
-	"garage_tuning_side_front": "Front side",
-	"garage_tuning_side_back": "Rear side",
-
-	"garage_tuning_stickers_figures": "Figures",
-	"garage_tuning_stickers_letters": "Letters",
-	"garage_tuning_stickers_flags": "Flags",
-	"garage_tuning_stickers_numbers": "Numbers",
-	"garage_tuning_stickers_brands": "Brands",
-	"garage_tuning_stickers_other": "Other",
-
-	"garage_tuning_config_front_wheels": "Front wheels",
-	"garage_tuning_config_rear_wheels": "Rear wheels",
-	"garage_tuning_config_suspension": "Suspension",
-	"garage_tuning_config_upgrades": "Upgrades",
-	"garage_tuning_config_wheels_size": "Wheels radius",
-
-	"garage_tuning_config_suspension_label": "Suspension height",
-	"garage_tuning_config_wheels_size_label": "Wheels radius",
-
-	"garage_tuning_config_wheels_offset": "Offset",
-	"garage_tuning_config_wheels_angle": "Angle",
-	"garage_tuning_config_wheels_width": "Width",
-
-	"garage_tuning_config_street_upgrade": "\"Street\" configuration",
-	"garage_tuning_config_street_description": "Faster speed and acceleration, improved controls",
-	"garage_tuning_config_drift_upgrade": "\"Drift\" configuration",
-	"garage_tuning_config_drift_description": "Special Drift Mode that can be enabled or disabled at any time",
-
-	"garage_tuning_buy_button": "Buy",
-	"garage_tuning_stock_text": "Default",
-	"garage_tuning_install_button": "Apply",
-
-	"garage_help_text": "%s - change, %s - select, %s - back, %s - free look",
-	"garage_help_sticker_selection": "%s - change, %s - buy, %s - cancel",
-	"garage_help_sticker_editor": "%s - control, %s, %s, %s, %s - change mode, %s/%s - add/remove sticker, %s - back",
-	"garage_help_numberplate": "Enter text, %s - delete text, %s - save, %s - cancel",
-
-	"garage_sticker_editor_move": "Move",
-	"garage_sticker_editor_rotate": "Rotate",
-	"garage_sticker_editor_scale": "Scale",
-	"garage_sticker_editor_color": "Change color",
-
-	"garage_sticker_editor_help_add": "Add sticker",
-	"garage_sticker_editor_help_remove": "Remove sticker",
-	"garage_sticker_editor_help_clone": "Clone selected sticker",
-	"garage_sticker_editor_help_copy_style": "Apply previous sticker style",
-	"garage_sticker_editor_help_change_mode": "Change edit mode",
-	"garage_sticker_editor_help_speed": "Move slower/faster",
-	"garage_sticker_editor_help_scale": "Scale by one axis",
-	"garage_sticker_editor_help_transform": "Move, scale and rotate",
-	"garage_sticker_editor_help_mirroring": "Toggle mirroring",
-	"garage_sticker_editor_help_next_prev": "Select next/previous sticker",
-	"garage_sticker_editor_help_toggle": "Toggle help",
-
-	"garage_tuning_sticker_color": "Sticker color",
-	"garage_tuning_sticker_prev": "%s - previous",
-	"garage_tuning_sticker_next": "%s - next",
-	"garage_tuning_sticker_mirror": "%s - mirroring",
-	"garage_tuning_sticker_mirror_text": "%s - text mirroring",
 
 	// ====================================
 	// ============ Main panel ============
@@ -336,20 +202,6 @@
 	"main_panel_password_change_message": "Password change",
 	"main_panel_password_change_error": "Failed to change your password",
 	"main_panel_password_change_success": "You have successfully changed your account password",
-
-	// ==========================================
-	// ================ Markers =================
-	// ==========================================
-	"markers_garage_text": "Press %q to enter garage",
-	"markers_city_text": "Press %q to teleport back to the city",
-	"markers_showroom_text": "Press %q to open car shop",
-	"markers_house_enter_text": "Press %q to enter house",
-	"markers_house_exit_text": "Press %q to exit",
-	"markers_house_knock_text": "Press %q to knock the door",
-	"markers_house_buy_text": "Press %q to open house buy menu",
-	"markers_strip_enter_text": "Press %q to enter strip club",
-	"markers_race_enter_text": "Press %q to enter race lobby",
-	"markers_tofu_text": "Press %q to start tofu mission",
 
 	// ====================================
 	// =========== House system ===========
@@ -427,21 +279,7 @@
 	"race_ui_quit_prompt_cancel": "Cancel",
 	"race_finish_race_button": "Continue",
 
-	// Carshop
-	"carshop_label_speed": "Speed",
-	"carshop_label_acceleration": "Acceleration",
-	"carshop_label_control": "Control",
-
-	"carshop_buy_button": "Add to garage",
-	"carshop_required_level": "Required level %s",
-	"carshop_no_money": "Not enough money",
-	"carshop_no_slots": "No slots in garage",
-	"carshop_need_premium": "Premium required",
-	"carshop_buy_error_title": "Failed to buy car",
-	"carshop_buy_error_unknown": "Unknown error",
-	"carshop_drift_label": "Drift upgrade available",
-	"carshop_drift_label_yes": "Yes",
-	"carshop_drift_label_no": "No",
+	
 
 	// Context menu
 	"context_menu_vehicle_door_lf_open": "Open left front door",
@@ -523,12 +361,7 @@
 	"duel_winner_screen_time": "Time",
 	"duel_winner_screen_timeout": "Time is out!",
 
-	// Handling switching
-	"handling_switching_message_drift": "Switching to Drift mode...",
-	"handling_switching_message_street": "Switching to Street mode...",
-	"handling_switching_message_no_upgrade": "You don't have drift upgrade installed!",
-	"handling_switching_message_moving": "You have to stop your car to change mode!",
-	"handling_switching_message_forced": "You are not allowed to change mode here",
+
 
 	// Gift panel
 	"gift_key_panel_back": "Back",
