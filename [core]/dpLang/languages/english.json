@@ -135,20 +135,7 @@
 	"login_panel_err_beta_key_invalid": "Your beta key is invalid",
 	"login_panel_err_account_banned": "This account is banned",
 
-	// ======================================================
-	// ================== Chat messages =====================
-	// ======================================================
-	"chat_message_login_success": "You have successfully logged in",
-	"chat_message_player_join": "Player %s has joined the server",
-	"chat_message_player_quit": "Player %s has left the server (%s)",
-	"chat_message_dont_flood": "Don't flood!",
-	"chat_message_muted": "You are temporary muted by administrator",
-	"chat_adminsay_admin": "Admin",
-	"chat_adminsay_moderator": "Moderator",
-	"chat_premiumsay": "Premium",
-	"chat_admin_mute": "Player %s has been muted by %s for %s seconds",
-	"chat_admin_unmute": "Players %s has been unmuted by %s.",
-	"chat_admin_ban": "Player %s has been banned %s",
+
 
 
 
@@ -234,16 +221,6 @@
 	"houses_message_buy_confirm": "Are you sure you want to buy this house for %s?",
 	"houses_message_sell_confirm": "Are you sure you want to sell your house for %s?",
 
-	// Chat
-	"chat_tab_global": "Global",
-	"chat_tab_local": "Local",
-	"chat_input_message": "Message",
-
-	"chat_tab_russian": "Russian",
-	"chat_tab_english": "English",
-
-	"chat_pm_started": "Here you can send private messages to %s",
-	"chat_close_tab": "To close this tab, click it with right mouse button",
 
 	// Race
 	"race_error_title": "Race",

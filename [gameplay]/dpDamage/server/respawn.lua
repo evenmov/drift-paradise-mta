@@ -7,6 +7,7 @@ addEventHandler("dpDamage.respawn", resourceRoot, function ()
         return
     end
 
+    --在最近的点复活
     local spawnPos = PathGenerator.getNearestCheckpoint(client)
     if not spawnPos then
         return

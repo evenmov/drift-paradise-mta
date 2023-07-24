@@ -1,1 +1,0 @@
-generateCheckpointsForPlayer = PathGenerator.generateCheckpointsForPlayer
