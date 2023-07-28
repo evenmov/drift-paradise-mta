@@ -42,8 +42,6 @@
 	"intro_credits_4": "present",
 	"intro_press_to_start": "Press SPACE to start",
 
-	"tutorial_garage_title": "Welcome to Drive Crew!",
-	"tutorial_garage_text": "Drive Crew is a freeroam server. It means that you can take any car for free and drive around. This is your garage where you can access all your cars. You can take new cars from the carshop.",
 
 	"help_panel_general_title": "General",
 	"help_panel_general_text": "Keys:\nF1 - main panel, teleports, settings\nF2 - cursor\n1 - toggle lights\nB - handling editor\nO - photo mode\nI toggle UI",
