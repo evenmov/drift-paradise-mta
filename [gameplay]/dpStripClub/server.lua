@@ -1,5 +1,0 @@
-addEvent("dpStripClub.throwMoney", true)
-addEventHandler("dpStripClub.throwMoney", resourceRoot, function (id)
-	setPedAnimation(client, "STRIP", "PUN_CASH", 0, false)
-	triggerClientEvent("dpStripClub.throwMoney", resourceRoot, id)
-end)
