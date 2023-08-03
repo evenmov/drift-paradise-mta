@@ -57,6 +57,7 @@ function loadMap(name, createLODs)
         for i, object in ipairs(getElementsByType("object")) do
             if loadedModels[object.model] then
                 local objectLOD = createObject(object.model, object.position, object.rotation, true)
+                setElementDimension(objectLOD,1);
                 object.lowLOD = objectLOD
                 table.insert(loadedLODs, objectLOD)
             end
